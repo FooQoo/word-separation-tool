@@ -29,6 +29,11 @@ def separtion(input: str) -> str:
     ----------
     input : str
         入力値
+
+    Returns
+    -------
+    str
+        カンマ区切り文字列
     """
     separator = Separator()
     separation_text = separator.convert_separation_text(input)
