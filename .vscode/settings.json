@@ -1,0 +1,12 @@
+{
+  "python.linting.lintOnSave": true,
+  //Tabをスペースキーとして変換
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4
+  },
+  "python.linting.mypyEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.blackPath": "black"
+}
